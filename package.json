@@ -15,7 +15,7 @@
     "release": "git add package.json && git commit -m 'chore: bump version number' && standard-version --first-release && git push --follow-tags origin master && npm run build && npm publish && git checkout ."
   },
   "dependencies": {
-    "bodymovin": "^4.8.0",
+    "bodymovin": "^4.13.0",
     "vue": "^2.2.1",
     "vue-lottie": "^0.1.2"
   },
